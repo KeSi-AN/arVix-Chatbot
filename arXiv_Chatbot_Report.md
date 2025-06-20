@@ -88,3 +88,20 @@ This project showcases how conversational AI can improve scientific information 
 - Add support for audio Q&A (voice input/output)
 - Build a citation recommendation engine
 - Fine-tune summarization for scientific domains (e.g., math vs. bio)
+
+---
+
+## 🔐 Kaggle API Key Notice
+
+**Important:** For security reasons, the `kaggle.json` file (Kaggle API credentials) is **not included** in this repository.
+
+To run the training notebook, please follow these steps:
+
+1. Go to your [Kaggle account settings](https://www.kaggle.com/settings).
+2. Scroll down to the **API section** and click on **"Create New API Token"**.
+3. This will download a file called `kaggle.json`.
+4. Place `kaggle.json` in the **root directory** of the project.
+
+The training notebook will automatically use this file to download datasets securely.
+
+**Do NOT share your `kaggle.json` publicly or commit it to GitHub.**
